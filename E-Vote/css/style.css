@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Righteous&family=Sigmar&display=swap");
+
+body {
+  background-color: #f1fcf9;
+}
+
+.judul{
+    font-family: 'Righteous', cursive;
+    color: #FFFFFF;
+}
+
+.subjudul{
+    color: rgb(189, 223, 223);
+    font-weight: bold;
+}
+
+.blkg{
+        border-top-left-radius: 5rem;
+        border-top-right-radius: 5rem;
+        border-bottom-right-radius: 3rem;
+        border-bottom-left-radius: 0.2rem;
+        background:linear-gradient(to top,#660101, #b80d0d 45%, #e47f0b);
+      }

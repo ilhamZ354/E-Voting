@@ -1,0 +1,86 @@
+body{
+        background-color:#f8f8f8;
+      }
+.navigasi{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to right,#8b080e 45%, #F97B22);
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+
+.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.navigasi li {
+  margin:2px;
+  display: block;
+  float: left;
+  background-color:none;
+
+}
+
+.navigasi li a {
+  display: block;
+  color:white;
+  border-width:2px;
+  border-top-color: #8b080e;
+  border-right-color: #8b080e;
+  border-left-color: #8b080e;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  position: -webkit-sticky;
+  transition: 0.2s;
+}
+
+.logout{
+  color: #FFFFFF;
+  transition: all 0.5ms;
+}
+.logout:hover{
+    transform: scale(1.08);
+}
+
+.navigasi li a:hover:not(.active):hover:not(.logout) {
+  color: #d89699;
+  border-style: solid;
+  border-width:2px;
+  border-top-color: #8b080e;
+  border-right-color: #8b080e;
+  border-left-color: #8b080e;
+  border-bottom-color: #d89699 ;
+  
+}
+.navigasi li a:hover{
+    color:white;
+    text-decoration:none;
+    
+}
+.active {
+  border-style: solid;
+  border-width:2px;
+  border-top-color: #8b080e;
+  border-right-color: #8b080e;
+  border-left-color: #8b080e;
+  border-bottom-color: #FFFFFF;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Righteous&display=swap');
+  .title p{
+    font-weight:bold;
+    color:#F97B22;
+    font-family: 'Righteous, cursive';
+  }
+
+  header{
+    background-color:#FFFFFF;
+  }
